@@ -1,83 +1,11 @@
-# A Responsive Personal Website
+# Draco
+A free PSD & HTML resume template.
+See the demo [here](http://draco.afnizarnur.com/) and download the latest release [here](https://github.com/afnizarnur/draco/releases).
+![Draco](https://cloud.githubusercontent.com/assets/4648648/26038614/72fe3772-3936-11e7-8f88-3781aea67bdc.png)
 
-I have created a HTML, CSS and Javascript Website.
+## License
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 
-The main page " index.html " has 4 links :
+Draco is licensed under Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Which means that you are free to copy and redistribute the material in any medium or format and remix, transform, and build upon the material.
 
-     Profile
-     
-     Legends
-     
-     Albums
-     
-     Birds
-     
-
-# Setup / Installation 
-
-Clone this repository into your computer,
-Open the " index.html " file in your browser.
-
-It has 4 links on the homepage :
-
-  # Profile
-   
-A description of Programmer - Here you can add your own details with the header and footer available.
-
-  # Legends
-  
-I have created a gallery for persons' I regard as legends, 
-each having a perfection in their own genres.
-  
-  The legends are :
-
-      Chadwick Boseman
-
-      Bob Marley
- 
-      Tupac Shakur
-
-      Big Poppa
-
-  # Albums
-  
-I have a passion for music, but different music has different beats,genree e.t.c, what i have done is selected my favorite artist and kept them in a container.
-This container is opened and displays 4 of my favorite albums in each artist.
-  
-The Artist are :
-
-      Nas
-
-      Chronixx
-
-      Jay-Z
-
-      Nyashinski
-
-      Kendrick Lamar
-
-      Protoje
-
-      Eminem
-
-  # Birds
-  
-I like birds and how they interact with the world without recognisition.
-My location currently, has allowed me to create a birds gallery with the birds around me.
-  
-The bird breeds i've encountered during my creation of this project :
-
-      Humming Bird
-
-      Mocking Bird
-
-      Crow
-
-      Eagle
-
-# Frameworks :
-
-
-     Vs Code
-
-     Bootstrap
+This template is designed and developed by Afnizar Nur Ghifari.

@@ -1,155 +1,165 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font Awesome Kit -->
-
-    <script src="https://kit.fontawesome.com/4f9cc66ded.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Google Fonts -->
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet"> 
-    
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-
-    <!-- MDB -->
-
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="./style/index.css" id="stylecss">
-
-    <title> Clinton Muthungu Ndegwa </title>
-
+    <title>Portfolio by @muthung_</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio is free PSD &amp; HTML template by @muthung_">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Clinton';
+		}
+	</style>
 </head>
-
 <body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Clinton</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
 
-    <!-- Name -->
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Clinton, A frontend developer</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+				    My passion into computers and emerging technology has made me pursue a degree in computer science.
+				</p>
+			</div>
+		</div>
+	</div>
 
-    <div class="header">
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>May - July 2022</li>
+				<li><a href="#">Kapsara Tea Factory Company Limited</a></li>
+				<li>CFU section operator</li>
+			</ul>
+			<ul class="work-list">
+				<li>February - May 2022</li>
+				<li><a href="#">Kapsara Tea Factory Company Limited</a></li>
+				<li>ICT intern</li>
+			</ul>
+			<ul class="work-list">
+				<li>May - August 2019</li>
+				<li><a href="#">National Environment Management Agency ( NEMA )</a></li>
+				<li>Casual Worker</li>
+			</ul>
+		</div>
+	</div>
 
-        <i class="fab fa-mailchimp fa-5x" style="color: rgb(124, 84, 23);"></i>
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Award &amp;<br>Achievements</h1>
+			<ul class="award-list list-flat">
+				<li>May 2022</li>
+				<li>I was an intern </li>
+				<li>at Kapsara Tea Factory Company Limited</li>
+				<li>I obtained a Letter of recommendation</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>December 2017</li>
+				<li>I sat for my Kenya Certificate of Secondary Education</li>
+				<li>at St Josephs' Boys National School</li>
+				<li>I obtained 365 marks ( B- )</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>December 2012</li>
+				<li>I sat for my Kenya Certificate of Primary Education</li>
+				<li> at Cherangani Hills Academy</li>
+				<li>I obtained 377 marks ( B+ )</li>
+			</ul>
+		</div>
+	</div>
 
-    </div>
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / SASS / Javascript</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / MongoDB / Oracle / Access</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>React / Node / Django / Lavarel</li>
+			</ul>
+		</div>
+	</div>
 
-      <!-- Navbar Links -->
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>no matter what we do, we must face the <b>Moment of Truth</b></h1>
+		</div>
+	</div>
 
-    <div class="topNav">
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Handcrafted by Clinton Muthungu Ndegwa</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:muthunguclintn@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/muthung_"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://github.com/cl9nt"><i class="fa fa-github"></i></a></li>
+						<li><a href="http://linkedin.com/muthung_"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
 
-         <!-- Left-align -->
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Nairobi", "Kenya", "Africa"],
 
-        <div class="topNav-active">
-
-            <a href="./profile/Profile.html"> Profile </a>
-
-            <a href="./legends/Legends.html"> Legends </a>
-
-            <a href="./frontend/index.html">New Project</a>
-
-        </div>
-
-         <!-- Centered-align -->
-
-        <h1 class="topNav-centered" style="color: green;"> Clinton Muthungu </h1>
-
-         <!-- Right-align -->
-
-        <div class="topNav-right">
-
-            <a href="./albums/Albums.html"> Albums </a>
-
-            <a href="./birds/Birds.html"> Birds </a>
-
-        </div>
-
-     </div>
-   
-     <!-- Portfolio Gallery Grid -->
-
-        <div class="container-fluid">
-
-            <h1> A Front-End Website Developer </h1>
-
-                <div class="row">
-
-                    <div class="col">
-
-                        <img class="img" src="./img/Panther.jpeg" alt="Panther">
-
-                            <p style="margin-top: 0;">
-                                
-                                <i class="fas fa-paw fa-2x" style="color: green;"></i>  Panther (legendary creature), a creature usually depicted as resembling a large cat with a multi-coloured hide 
-                            
-                            </p>
-
-                    </div>
-
-                </div>
-        </div>
-
-    <footer class="footer position: fixed-bottom">
-
-        <div class="item-social">
-
-            <a href="https://www.linkedin.com/" class="fb-ic" target="_blank" rel="noopener noreferrer">
-
-                <i class="fab fa-linkedin fa-2x"></i>
-
-            </a>
-
-            <a href="https://www.twitter.com/" class="tw-ic" target="_blank" rel="noopener noreferrer">
-
-                <i class="fab fa-twitter fa-2x"></i>
-
-            </a>
-
-            <a href="https://www.github.com/" class="ig-ic" target="_blank" rel="noopener noreferrer">
-
-                <i class="fab fa-github fa-2x"></i>
-
-            </a>
-
-        </div>
-
-        <div class="footer-copyright">
-
-            <a href="https://www.gmail.com/" target="_blank" rel="noopener noreferrer"> 
-
-                <span> muthunguclintn@gmail.com </span>
-
-            </a>
-        </div>
-    </footer> 
-
-    <!--  New Project script -->
-
-    <script src="./frontend/script.js"></script>
-
-     <!-- MDB -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </body>
 </html>
